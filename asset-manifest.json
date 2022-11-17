@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.659d3d59.css",
+    "main.js": "/portfolio/static/js/main.7246cedb.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/MarcosDev.jpg": "/portfolio/static/media/MarcosDev.02f6db3c3955bcd8fcc8.jpg",
+    "static/media/CV-MarcosCruz-FullStackDevelopment.pdf": "/portfolio/static/media/CV-MarcosCruz-FullStackDevelopment.53dfabde241178be1bb9.pdf",
+    "static/media/MovieApp.jpg": "/portfolio/static/media/MovieApp.bfcc53857fd6aa1232a7.jpg",
+    "static/media/logM.png": "/portfolio/static/media/logM.9a52315e1ed56161bfa7.png",
+    "index.html": "/portfolio/index.html",
+    "main.659d3d59.css.map": "/portfolio/static/css/main.659d3d59.css.map",
+    "main.7246cedb.js.map": "/portfolio/static/js/main.7246cedb.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.659d3d59.css",
+    "static/js/main.7246cedb.js"
+  ]
+}
