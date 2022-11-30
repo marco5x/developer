@@ -36,7 +36,7 @@ export const ModalMeme = () => {
                                     <p className="my-4 text-slate-500 text-lg leading-relaxed">
                                         Este pagina web en el que el usuario puede crear un meme,
                                         a traves de unas imagenes iconicas de memes.
-                                        El proyecto esta creado con Firebase, para el pequeño backend y en React para el frontend
+                                        El proyecto esta creado con React, react-router-dom y Bootstrap para los estilos
                                     </p>
                                 </div>
                                 {/*footer*/}

@@ -1,5 +1,5 @@
 import {
-    SiFirebase,
+    SiBootstrap,
     SiReactrouter,
     SiRedux,
     SiHtml5,
@@ -10,6 +10,8 @@ import {
 import { FaReact } from "react-icons/fa";
 import MovieApp from "../assets/img/MovieApp.jpg";
 import GifApp from "../assets/img/GifApp.jpg";
+import MemeGenerator from "../assets/img/MemeGenerator.jpg"
+import PI from "../assets/img/PI.jpg"
 import { ModalGif } from "./modals/ModalGif";
 import { ModalMoviesApp } from "./modals/ModalMoviesApp";
 import { ModalMeme } from "./modals/ModalMeme";
@@ -26,7 +28,7 @@ export const PortfolioSection = () => {
             </p>
             <div className="flex flex-wrap justify-center pt-2 ">
                 <div className="flex flex-col p-6 m-6 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-60 hover:bg-sky-100">
-                    <img src={""} alt="" />
+                    <img src={PI} alt="" />
                     <p className="mt-3 sm:text-2xl font-semibold text-center">
                         CountiesApp
                     </p>
@@ -40,15 +42,15 @@ export const PortfolioSection = () => {
                 </div>
 
                 <div className="flex flex-col p-6 m-6 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-60 hover:bg-sky-100">
-                    <img src={""} alt="" />
+                    <img src={MemeGenerator} alt="" />
                     <p className="mt-3 sm:text-2xl font-semibold text-center">
                         MemeGenerator
                     </p>
                     <div className="flex justify-center gap-2 m-2">
                         <SiJavascript color="#efd81d" className=" text-3xl" />
                         <FaReact color="#2196f3" className=" text-3xl" />
-                        <SiTailwindcss color="#38bdf8" className=" text-3xl" />
-                        <SiFirebase color="#fcc203" className="text-3xl" />
+                        <SiReactrouter color="#f44250" className=" text-3xl" />
+                        <SiBootstrap color="#7b11f8" className="text-3xl" />
                     </div>
                     <ModalMeme />
                 </div>

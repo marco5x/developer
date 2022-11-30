@@ -61,7 +61,7 @@ export const FooterSection = () => {
 					<a
 						className="text-blue-500 hover:underline"
 						href="mailto:marcosmc86@gmail.com"
-					> Marco5X/Dev</a>
+					> marco5x/dev</a>
 				</p>
 			</div>
 		</div>
