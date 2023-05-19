@@ -54,7 +54,7 @@ export const ModalCountries = () => {
                                         className="btn-primary"
                                         target="_blank"
                                         rel="noreferrer"
-                                        href="https://marco5x.github.io/developer"
+                                        href="https://marco5x.github.io/PI-Countries-Henry-front-/"
                                         onClick={() => setShowModal(false)}
                                     >
                                         Ir a Demo
