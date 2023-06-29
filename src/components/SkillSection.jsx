@@ -7,7 +7,7 @@ import {
   SiHtml5,
   SiJavascript,
   SiRedux,
-  SiPostgresql
+  SiPostgresql,
 } from "react-icons/si";
 import { Arrow } from "./Arrow";
 
@@ -30,22 +30,30 @@ export const SkillSection = () => {
 
         <div className="skill-card">
           <SiJavascript color="#e8d535" className="mx-auto text-4xl" />
-          <p className="mt-6 sm:text-2xl font-semibold text-center">Javascript (ES6)</p>
+          <p className="mt-6 sm:text-2xl font-semibold text-center">
+            Javascript (ES6)
+          </p>
         </div>
 
         <div className="skill-card">
           <SiTailwindcss color="#00C0A3" className="mx-auto text-4xl" />
-          <p className="mt-6 sm:text-2xl font-semibold text-center">TailwindCSS</p>
+          <p className="mt-6 sm:text-2xl font-semibold text-center">
+            TailwindCSS
+          </p>
         </div>
-        
+
         <div className="skill-card">
           <FaReact color="#2196f3" className="mx-auto text-4xl" />
-          <p className="mt-6 sm:text-2xl font-semibold text-center">React (Hooks)</p>
+          <p className="mt-6 sm:text-2xl font-semibold text-center">
+            React (Hooks)
+          </p>
         </div>
 
         <div className="skill-card">
           <SiRedux color="#7a4ac0" className="mx-auto text-4xl" />
-          <p className="mt-6 sm:text-2xl font-semibold text-center">Redux (Toolkit)</p>
+          <p className="mt-6 sm:text-2xl font-semibold text-center">
+            Redux (Toolkit)
+          </p>
         </div>
 
         <div className="skill-card">
@@ -55,12 +63,16 @@ export const SkillSection = () => {
 
         <div className="skill-card">
           <SiExpress color="#259dff" className="mx-auto text-4xl" />
-          <p className="mt-6 sm:text-2xl font-semibold text-center">ExpressJs</p>
+          <p className="mt-6 sm:text-2xl font-semibold text-center">
+            ExpressJs
+          </p>
         </div>
 
         <div className="skill-card">
           <SiPostgresql color="#336791" className="mx-auto text-4xl" />{" "}
-          <p className="mt-6 sm:text-2xl font-semibold text-center">PostgreSql (15)</p>
+          <p className="mt-6 sm:text-2xl font-semibold text-center">
+            PostgreSql (15)
+          </p>
         </div>
       </div>
       <Arrow />

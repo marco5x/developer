@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa";
 
 export const CardUi = () => {
   return (
-    <div className="w-full mt-10 sm:mt-0">
+    <div className="w-full sm:mt-0">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-2xl rounded-xl pt-5 pb-3 ">
         <div>
           <img
