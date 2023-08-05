@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const ModalGif = () => {
+export const ModalDocs = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -25,7 +25,7 @@ export const ModalGif = () => {
             <div className="relative w-auto my-6 mx-auto max-w-sm">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-3xl font-semibold">Gif-App</h3>
+                  <h3 className="text-3xl font-semibold">DocsToolsDev</h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
@@ -38,12 +38,11 @@ export const ModalGif = () => {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                    Esta es una web app en el que el usuario puede buscar
-                    cualquier gif con tan solo ingresar un texto en un campo, el
-                    proyecto se realizó en React, estilado con TailwindCss, para
-                    un diseño responsivo. Este se encarga de hacer peticiones al
-                    Api de Giphy Developers para obtener los gifs solicitados
-                    por el usuario final.
+                    Esta es una página web estática, creada con Astro y Css3
+                    para los estilos, muestra las documentaciones y las tools
+                    web que utilizo en el desarrollo de aplicaciones web, tanto
+                    para el frontend, estilos y backend y utilidades para el
+                    developers.
                   </p>
                 </div>
                 {/*footer*/}
@@ -59,7 +58,7 @@ export const ModalGif = () => {
                     className="btn-primary"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://marco5x.github.io/gif-app"
+                    href="https://docstools.pages.dev"
                     onClick={() => setShowModal(false)}
                   >
                     Ir a Demo

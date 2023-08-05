@@ -29,7 +29,7 @@ export const Nav = () => {
                   href="#post-2"
                   className="text-xl font-bold duration-300 hover:text-blue-500 hover:border-b-4 border-blue-500"
                 >
-                  Contacto
+                  Contácto
                 </a>
               </li>
               <li>

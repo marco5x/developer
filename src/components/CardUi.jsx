@@ -5,7 +5,15 @@ import { FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa";
 export const CardUi = () => {
   return (
     <div className="w-full sm:mt-0">
-      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-2xl rounded-xl pt-5 pb-3 ">
+      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-2xl rounded-xl pt-5 pb-2">
+        <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <img
+            src={MarcosDev}
+            className="max-w-[180px] mx-auto shadow-xl rounded-full drop-shadow-sm transition duration-300 ease-in-out hover:scale-125"
+            alt="Marcos"
+          />
+        </div>
+        {/**
         <div>
           <img
             className="w-32 mx-auto shadow-xl rounded-full drop-shadow-sm"
@@ -13,6 +21,7 @@ export const CardUi = () => {
             alt="profile"
           />
         </div>
+  */}
         <div className="text-center mt-5">
           <p className="text-xl sm:text-2xl font-semibold text-gray-900">
             MARCOS CRUZ

@@ -1,0 +1,40 @@
+{
+  "modals": [
+    {
+      "id": 1,
+      "name": "MovieApp",
+      "description": "Esta es una Página web ( SPA ) creada con React js, Redux, para el diseño CSS3 y responsivo. Permite buscar películas, agregarlas a favoritas y eliminarlas, y haciendo click sobre el poster 🖱. se obtiene el detalle de la misma",
+      "link": "https://app-movies-marco5x.vercel.app/"
+    },
+    {
+      "id": 2,
+      "name": "MemeGenerator",
+      "description": "Esta es una web app en el que el usuario puede crear un meme, a través de unas imagenes iconicas de memes. El proyecto esta creado con ReactJs, react-router-dom y Bootstrap para los estilos",
+      "link": "https://marco5x.github.io/meme-generator"
+    },
+    {
+      "id": 3,
+      "name": "Gif-App",
+      "description": "Esta es una web app en el que el usuario puede buscar cualquier gif con tan solo ingresar un texto en un campo, el proyecto se realizó en React, estilado con TailwindCss, para un diseño responsivo. Este se encarga de hacer peticiones al Api de Giphy Developers para obtener los gifs solicitados por el usuario final.",
+      "link": "https://marco5x.github.io/gif-app"
+    },
+    {
+      "id": 4,
+      "name": "CountriesApp",
+      "description": "Esta es un Proyecto final, para el bootcamp de Henry. Frontend: ReactJs, Redux(toolkit) Css3 (module) - Backend: NodeJS, ExpressJS, Sequelize(Orm), PostgreSql (15)",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "name": "DocsTools",
+      "description": "Esta es una página web estática, creada con Astro y TailwindCss para los estilos, muestra las documentaciones y las tools web que utilizo en el desarrollo de applicaciones web, tanto para el frontend, estilos y backend",
+      "link": "https://docstools.pages.dev"
+    },
+    {
+      "id": 6,
+      "name": "EquidApp",
+      "description": "Esta es una web app (PWA) que fue creada para que los usuarios puedan dividir los consumos, de acuerdo a los ingresos que cada uno de ellos tiene, también tiene la posibilidad de calcular calores en dólares, traidos los datos a través de una api. La app esta creada con Javascriptt, ReactJs, Redux(toolkit), Redux(RTK)  TailwindCss",
+      "link": "#"
+    }
+  ]
+}
