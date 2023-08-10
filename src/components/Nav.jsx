@@ -7,7 +7,7 @@ export const Nav = () => {
     <>
       <div className="max-w-100 mx-auto mb-5 py-4 px-2 bg-gray-100 dark:bg-slate-400 sticky top-0 z-20 shadow-sm sm:shadow-none">
         <div className="flex justify-between flex-col sm:flex-row text-center">
-          <div>
+          <div className="hover:animate-pulse">
             <img src={logM} alt="MarcosDev" width={80} />
             {/* <span className=" text-4xl font-bold ">
 							Marcos<span className="text-blue-500">Dev</span>

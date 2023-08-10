@@ -9,7 +9,7 @@ export const CardUi = () => {
         <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
           <img
             src={MarcosDev}
-            className="max-w-[180px] mx-auto shadow-xl rounded-full drop-shadow-sm transition duration-300 ease-in-out hover:scale-125"
+            className="max-w-[180px] mx-auto shadow-xl rounded-full transition duration-300 ease-in-out hover:scale-125"
             alt="Marcos"
           />
         </div>
@@ -50,7 +50,7 @@ export const CardUi = () => {
             </a>
             <a
               href="mailto:marcosmc86@gmail.com"
-              className="text-2xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full hover:text-white transition-colors duration-300"
+              className="text-2xl m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-black rounded-full hover:text-white transition-colors duration-300"
               target="_blank"
               rel="noreferrer"
             >

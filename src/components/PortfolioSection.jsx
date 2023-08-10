@@ -16,11 +16,13 @@ import GifApp from "../assets/img/GifApp.jpg";
 import MemeGenerator from "../assets/img/MemeGenerator.jpg";
 import PI from "../assets/img/PI.jpg";
 import Docs from "../assets/img/Docstools.jpg";
+import EquidApp from "../assets/img/Equidapp.jpg";
 import { ModalGif } from "./modals/ModalGif";
 import { ModalMoviesApp } from "./modals/ModalMoviesApp";
 import { ModalMeme } from "./modals/ModalMeme";
 import { ModalCountries } from "./modals/ModalCountries";
 import { ModalDocs } from "./modals/ModalDocs";
+import { ModalEquidapp } from "./modals/ModalEquidapp";
 
 export const PortfolioSection = () => {
   return (
@@ -33,14 +35,35 @@ export const PortfolioSection = () => {
       </p>
       <div className="flex flex-wrap justify-center pt-2 ">
         <div className="flex flex-col p-6 m-6 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-60 hover:bg-sky-100">
-          <img src={Docs} alt="countriesApp" />
+          <img src={EquidApp} alt="countriesApp" />
+          <p className="mt-3 sm:text-2xl font-semibold text-center">equidApp</p>
+          <div className="flex justify-center gap-2 my-2">
+            <SiJavascript
+              color="#efd81d"
+              className=" text-3xl"
+              title="JavaScript"
+            />
+            <SiHtml5 color="#e06a46" className=" text-3xl" title="Html5" />
+            <SiTailwindcss
+              color="#38bdf8"
+              className=" text-3xl"
+              title="TailwindCss"
+            />
+            <FaReact color="#2196f3" className=" text-3xl" title="ReactJs" />
+            <SiRedux color="#4c0bce" className="text-3xl" title="Redux" />
+          </div>
+          <ModalEquidapp />
+        </div>
+
+        <div className="flex flex-col p-6 m-6 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-60 hover:bg-sky-100">
+          <img src={Docs} alt="docsTools" />
           <p className="mt-3 sm:text-2xl font-semibold text-center">
             DocsToolsDev
           </p>
           <div className="flex justify-center gap-2 my-2">
-            <SiAstro color="#3c3c3c" className=" text-3xl" />
-            <SiHtml5 color="#e06a46" className=" text-3xl" />
-            <SiCss3 color="#2962ff" className=" text-3xl" />
+            <SiAstro color="#3c3c3c" className=" text-3xl" title="Astro" />
+            <SiHtml5 color="#e06a46" className=" text-3xl" title="Html5" />
+            <SiCss3 color="#2962ff" className=" text-3xl" title="Css3" />
           </div>
           <ModalDocs />
         </div>
@@ -51,13 +74,21 @@ export const PortfolioSection = () => {
             CountriesApp
           </p>
           <div className="flex justify-center gap-2 my-2">
-            <FaReact color="#2196f3" className=" text-3xl" />
-            <SiCss3 color="#2962ff" className=" text-3xl" />
-            <SiReactrouter color="#3c3c3c" className=" text-3xl" />
-            <SiRedux color="#4c0bce" className="text-3xl" />
-            <FaNodeJs color="#026e00" className="text-3xl" />
-            <SiExpress color="#259dff" className="text-3xl" />
-            <SiPostgresql color="#336791" className="text-3xl" />
+            <FaReact color="#2196f3" className=" text-3xl" title="ReactJs" />
+            <SiCss3 color="#2962ff" className=" text-3xl" title="Css3" />
+            <SiReactrouter
+              color="#3c3c3c"
+              className=" text-3xl"
+              title="ReactRouterDom"
+            />
+            <SiRedux color="#4c0bce" className="text-3xl" title="Redux" />
+            <FaNodeJs color="#026e00" className="text-3xl" title="NodeJs" />
+            <SiExpress color="#259dff" className="text-3xl" title="ExpressJs" />
+            <SiPostgresql
+              color="#336791"
+              className="text-3xl"
+              title="PostgreeSql"
+            />
           </div>
           <ModalCountries />
         </div>
@@ -68,10 +99,22 @@ export const PortfolioSection = () => {
             MemeGenerator
           </p>
           <div className="flex justify-center gap-2 my-2">
-            <SiJavascript color="#efd81d" className=" text-3xl" />
-            <FaReact color="#2196f3" className=" text-3xl" />
-            <SiReactrouter color="#f44250" className=" text-3xl" />
-            <SiBootstrap color="#7b11f8" className="text-3xl" />
+            <SiJavascript
+              color="#efd81d"
+              className=" text-3xl"
+              title="JavaScript"
+            />
+            <FaReact color="#2196f3" className=" text-3xl" title="ReactJs" />
+            <SiReactrouter
+              color="#f44250"
+              className=" text-3xl"
+              title="ReactRouterDom"
+            />
+            <SiBootstrap
+              color="#7b11f8"
+              className="text-3xl"
+              title="Bootstrap"
+            />
           </div>
           <ModalMeme />
         </div>
@@ -82,9 +125,17 @@ export const PortfolioSection = () => {
             GifApp
           </p>
           <div className="flex justify-center gap-2 my-2">
-            <SiJavascript color="#efd81d" className=" text-3xl" />
-            <FaReact color="#2196f3" className=" text-3xl" />
-            <SiTailwindcss color="#38bdf8" className=" text-3xl" />
+            <SiJavascript
+              color="#efd81d"
+              className=" text-3xl"
+              title="JavaScript"
+            />
+            <FaReact color="#2196f3" className=" text-3xl" title="ReactJs" />
+            <SiTailwindcss
+              color="#38bdf8"
+              className=" text-3xl"
+              title="TailwindCss"
+            />
           </div>
           <ModalGif />
         </div>
@@ -95,10 +146,14 @@ export const PortfolioSection = () => {
             MoviesApp
           </p>
           <div className="flex justify-center gap-2 my-2">
-            <SiJavascript color="#efd81d" className=" text-3xl" />
-            <SiCss3 color="#2962ff" className="text-3xl" />
-            <FaReact color="#2196f3" className=" text-3xl" />
-            <SiRedux color="#4c0bce" className="text-3xl" />
+            <SiJavascript
+              color="#efd81d"
+              className=" text-3xl"
+              title="JavaScript"
+            />
+            <SiCss3 color="#2962ff" className="text-3xl" title="Css3" />
+            <FaReact color="#2196f3" className=" text-3xl" title="ReactJs" />
+            <SiRedux color="#4c0bce" className="text-3xl" title="Redux" />
           </div>
           <ModalMoviesApp />
         </div>
